@@ -1,28 +1,10 @@
-<a href="https://www.npmjs.com/package/react-native-google-places-autocomplete">
+<a href="https://www.npmjs.com/package/react-native-google-places-autosearch">
   <img alt="npm version" src="https://img.shields.io/npm/v/react-native-google-places-autocomplete"/>
 </a>
 
 # Google Maps Search Component for React Native
 
 **Customizable Google Places autocomplete component for iOS and Android React-Native apps**
-
-## Sponsor
-
-<p align="center">
-  <br/>
-  <a href="https://bit.ly/3rneTTI" target="_blank">
-    <img src="https://raw.githubusercontent.com/FaridSafi/react-native-google-places-autocomplete/master/Assets/expensify-logo.png">
-  </a>
-  <br>
-  <p align="center">
-    The financial management super app for expenses, corporate cards, and more.
-  </p>
-  <a href="https://bit.ly/3rneTTI" target="_blank">
-    <p align="center">
-      Click to learn more
-    </p>
-  </a>
-</p>
 
 ## Preview
 
@@ -231,8 +213,6 @@ export default GooglePlacesInput;
 </details>
 
 ## Props
-
-_This list is a work in progress. PRs welcome!_
 
 | Prop Name                     | type            | description                                                                                                                                                                                                                                 | default value                                                     | Options                                                    |
 | ----------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------------------------------------------------- |
@@ -533,16 +513,11 @@ Number 2 is used when you click on a result.
 Number 3 is used when you select 'Current Location' to load nearby results.  
 Number 4 is used when `nearbyPlacesAPI='GoogleReverseGeocoding'` is set and you select 'Current Location' to load nearby results.
 
-## Changelog
-
-Please see the [releases](https://github.com/FaridSafi/react-native-google-places-autocomplete/releases) tab for the changelog information.
-
 ## License
 
 [MIT](LICENSE)
 
-### Authors
+## About the Author and Origins of the Library
 
-- [Farid Safi](https://www.twitter.com/FaridSafi)
-- [Maxim Yaskevich](https://www.twitter.com/mayaskme)
-- [Guilherme Pontes](https://www.twitter.com/guiiipontes)
+This version of the package is maintained by [Axster](https://github.com/Axster). 
+This project is a fork of the original library by Farid from Safi, which can be found [here](https://github.com/FaridSafi/react-native-google-places-autocomplete).

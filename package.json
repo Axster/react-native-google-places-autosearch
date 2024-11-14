@@ -1,7 +1,7 @@
 {
-  "name": "react-native-google-places-autocomplete",
-  "version": "2.5.7",
-  "description": "Customizable Google Places autocomplete component for iOS and Android React-Native apps",
+  "name": "react-native-google-places-autosearch",
+  "version": "1.0.0",
+  "description": "Customizable component for iOS and Android React-Native apps to search places with Google API",
   "main": "GooglePlacesAutocomplete.js",
   "types": "GooglePlacesAutocomplete.d.ts",
   "scripts": {
@@ -9,11 +9,11 @@
     "release": "npx release-it",
     "prettier": "prettier --write ."
   },
-  "author": "Farid from Safi",
+  "author": "Axster",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FaridSafi/react-native-google-places-autocomplete.git"
+    "url": "git+https://github.com/Axster/react-native-google-places-autosearch.git"
   },
   "keywords": [
     "autocomplete",
@@ -21,13 +21,14 @@
     "places",
     "react-component",
     "react-native",
+    "maps",
     "ios",
     "android"
   ],
   "bugs": {
-    "url": "https://github.com/FaridSafi/react-native-google-places-autocomplete/issues"
+    "url": "https://github.com/Axster/react-native-google-places-autosearch/issues"
   },
-  "homepage": "https://github.com/FaridSafi/react-native-google-places-autocomplete#readme",
+  "homepage": "https://github.com/Axster/react-native-google-places-autosearch#readme",
   "dependencies": {
     "lodash.debounce": "^4.0.8",
     "prop-types": "^15.7.2",
@@ -37,7 +38,7 @@
   "devDependencies": {
     "@react-native-community/eslint-config": "2.0.0",
     "eslint": "7.10.0",
-    "husky": "4.3.0",
+    "husky": "^4.3.8",
     "lint-staged": "10.4.0",
     "prettier": "2.1.2",
     "typescript": "^3.8.3"
